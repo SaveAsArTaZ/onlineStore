@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardShopComponent } from './components/card-shop/card-shop.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { UserInfoComponent } from './components/user-info/user-info.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, CardShopComponent],
+  declarations: [AppComponent, HeaderComponent, CardShopComponent, UserInfoComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, OverlayModule],
   providers: [],
   bootstrap: [AppComponent],

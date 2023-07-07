@@ -1,0 +1,16 @@
+<div class="container">
+  <button
+    (click)="overlayTrigger()"
+    cdkOverlayOrigin
+    #trigger="cdkOverlayOrigin"
+  >
+    Artaz <fa-icon class="caretIcon" [icon]="faCaretDown"></fa-icon>
+  </button>
+  <ng-template
+    cdkConnectedOverlay
+    [cdkConnectedOverlayOrigin]="trigger"
+    [cdkConnectedOverlayOpen]="isOpen"
+  >
+    <div class="cardOverlay">test</div>
+  </ng-template>
+</div>
