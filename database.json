@@ -1,0 +1,46 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "tomato",
+        "type": "vegetable",
+        "price": 4.5
+      },
+      {
+        "id": 2,
+        "name": "broccoli",
+        "type": "vegetable",
+        "price": 3
+      },
+      {
+        "id": 3,
+        "name": "chicory",
+        "type": "vegetable",
+        "price": 5
+      },
+      {
+        "id": 4,
+        "name": "tomato",
+        "type": "vegetable",
+        "price": 4.5
+      },
+      {
+        "id": 4,
+        "name": "tomato",
+        "type": "vegetable",
+        "price": 4.5
+      },
+      {
+        "id": 4,
+        "name": "tomato",
+        "type": "vegetable",
+        "price": 4.5
+      },
+      {
+        "id": 4,
+        "name": "tomato",
+        "type": "vegetable",
+        "price": 4.5
+      }
+    ]
+  }

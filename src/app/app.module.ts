@@ -8,10 +8,32 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardShopComponent } from './components/card-shop/card-shop.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UserInfoComponent } from './components/user-info/user-info.component';
+import { ContentComponent } from './components/content/content.component';
+import { CategoryComponent } from './components/category/category.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, CardShopComponent, UserInfoComponent],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, OverlayModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    CardShopComponent,
+    UserInfoComponent,
+    ContentComponent,
+    CategoryComponent,
+    ProductsComponent,
+    ProductItemComponent,
+    FooterComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FontAwesomeModule,
+    OverlayModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

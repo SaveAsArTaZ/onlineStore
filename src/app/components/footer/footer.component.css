@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: 4rem;
+    background: #18122B;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.iconContainer svg {
+    fill: #fff;
+}
+.container h6 {
+    color: #fff;
+}
