@@ -1,0 +1,15 @@
+<div class="container">
+  <Button
+    (click)="overlayTrigger()"
+    cdkOverlayOrigin
+    #trigger="cdkOverlayOrigin"
+    ><fa-icon class="cardIcon" [icon]="faCartShopping"></fa-icon
+  ></Button>
+  <ng-template
+    cdkConnectedOverlay
+    [cdkConnectedOverlayOrigin]="trigger"
+    [cdkConnectedOverlayOpen]="isOpen"
+  >
+    <div class="cardOverlay">test</div>
+  </ng-template>
+</div>
