@@ -1,9 +1,12 @@
 <section>
   <h1>Products</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </table>
   <div class="container">
-    <app-product-item
-      *ngFor="let product of products"
-      [product]="product"
-    ></app-product-item>
+    <ng-template #container></ng-template>
   </div>
 </section>

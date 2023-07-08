@@ -5,7 +5,9 @@ section {
     border-radius: 0 1rem 1rem 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+h1,.container {
+    align-self: center;
 }
 .container {
     width: 90%;
@@ -15,4 +17,16 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+table {
+    height: 5%;
+    width: 26%;
+    text-align: center;
+    margin-left: 4.5rem;
+}
+tr{
+    border: 1px solid black;
+}
+th {
+    width: 50%;
 }

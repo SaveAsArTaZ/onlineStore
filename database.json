@@ -20,27 +20,39 @@
       },
       {
         "id": 4,
-        "name": "tomato",
-        "type": "vegetable",
-        "price": 4.5
+        "name": "apple",
+        "type": "fruits",
+        "price": 2
       },
       {
-        "id": 4,
-        "name": "tomato",
-        "type": "vegetable",
-        "price": 4.5
+        "id": 5,
+        "name": "banana",
+        "type": "fruits",
+        "price": 3
       },
       {
-        "id": 4,
-        "name": "tomato",
-        "type": "vegetable",
-        "price": 4.5
+        "id": 6,
+        "name": "watermelon",
+        "type": "fruits",
+        "price": 6
       },
       {
-        "id": 4,
-        "name": "tomato",
-        "type": "vegetable",
-        "price": 4.5
+        "id": 7,
+        "name": "anpan",
+        "type": "bread",
+        "price": 10
+      },
+      {
+        "id": 8,
+        "name": "babka",
+        "type": "bread",
+        "price": 12
+      },
+      {
+        "id": 9,
+        "name": "bannock",
+        "type": "bread",
+        "price": 15
       }
     ]
   }

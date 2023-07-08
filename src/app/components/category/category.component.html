@@ -1,17 +1,17 @@
 <aside>
   <div class="container">
     <ul>
-      <li>
-        <span>All Categories</span>
+      <li class="allCategoryLi" (click)="setSeleted('allCategory')">
+        <span class="allCategoryTxt">All Categories</span>
       </li>
-      <li>
-        <span>Bread</span>
+      <li class="breadLi" (click)="setSeleted('bread')">
+        <span class="breadTxt">Bread</span>
       </li>
-      <li>
-        <span>Fruits</span>
+      <li class="fruitLi" (click)="setSeleted('fruit')">
+        <span class="fruitTxt">Fruits</span>
       </li>
-      <li>
-        <span>vegetables</span>
+      <li class="vegetableLi" (click)="setSeleted('vegetable')">
+        <span class="vegetableTxt">vegetables</span>
       </li>
     </ul>
   </div>

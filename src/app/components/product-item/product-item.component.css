@@ -17,8 +17,13 @@
     justify-content: space-around;
     align-items: center;
 }
-.productInfo p,.productInfo h5 {
-    font-size: medium;
+table {
+    height: 90%;
+    width: 30%;
+    text-align: center;
+}
+td {
+    width: 50%;
 }
 .container button {
     width: 5rem;
