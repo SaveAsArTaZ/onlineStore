@@ -13,12 +13,3 @@
     font-size: 1.5rem;
     color: #fff;
 }
-.cardOverlay {
-    width: 12rem;
-    height: 15rem;
-    background: #18122bce;
-    border-radius: 0 0 0.5rem 0.5rem;
-    float: left;
-    position: absolute;
-    top: 4.5rem;
-}

@@ -14,6 +14,8 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChoosedItemComponent } from './components/choosed-item/choosed-item.component';
+import { ItemComponent } from './components/item/item.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsComponent,
     ProductItemComponent,
     FooterComponent,
+    ChoosedItemComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,

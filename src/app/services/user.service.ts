@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { Product } from '../product';
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
-  choosedItems: Subject<Product[]> = new Subject();
+  p: Product[] = [];
+  choosedItems: BehaviorSubject<Product[]> = new BehaviorSubject(this.p);
   constructor() {}
 }
