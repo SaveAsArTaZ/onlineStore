@@ -1,5 +1,5 @@
 import { Component, Renderer2 } from '@angular/core';
-
+import { ProductService } from 'src/app/services/product.service';
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
@@ -7,7 +7,10 @@ import { Component, Renderer2 } from '@angular/core';
 })
 export class CategoryComponent {
   selected: string = 'allCategory';
-  constructor(private renderer: Renderer2) {}
+  constructor(
+    private renderer: Renderer2,
+    private productService: ProductService
+  ) {}
   ngOnInit(): void {
     const firstItemBackground =
       document.getElementsByClassName('allCategoryLi')[0];
@@ -36,6 +39,7 @@ export class CategoryComponent {
     this.renderer.setStyle(newSelectedBackground, 'background', '#F1F6F9');
     this.renderer.setStyle(newSelectedText, 'color', '#393053');
     this.selected = selected;
+    this.productService.selectedProduct.next(this.selected);
     return;
   }
 }

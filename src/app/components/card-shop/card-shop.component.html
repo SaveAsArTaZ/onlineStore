@@ -3,7 +3,10 @@
     (click)="overlayTrigger()"
     cdkOverlayOrigin
     #trigger="cdkOverlayOrigin"
-    ><fa-icon class="cardIcon" [icon]="faCartShopping"></fa-icon
+    ><fa-icon
+      class="cardIcon"
+      [icon]="isOpen ? faCircleXmark : faCartShopping"
+    ></fa-icon
   ></Button>
   <ng-template
     cdkConnectedOverlay

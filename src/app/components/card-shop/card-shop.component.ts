@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-card-shop',
   templateUrl: './card-shop.component.html',
@@ -7,6 +8,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 })
 export class CardShopComponent {
   faCartShopping = faCartShopping;
+  faCircleXmark = faCircleXmark;
   isOpen: boolean = false;
   overlayTrigger() {
     this.isOpen = !this.isOpen;
